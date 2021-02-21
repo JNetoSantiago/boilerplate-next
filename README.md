@@ -80,3 +80,25 @@ insert_final_newline = true
   "plugin:prettier/recommended"
 ]
 ```
+
+## Instalar e configurar JEST
+
+```
+yarn add --dev jest babel-jest @babel/core @babel/preset-env @types/jest
+```
+
+```js
+// adicionar em .eslintrc.json
+{
+  "env": {
+        // ...
+        "jest": true,
+        "node": true
+    },
+    // ...
+}
+```
+
+### Criar um arquivo de configuração do jest jest.config.js
+### Criar um arquivo de configuração do babel .babelrc
+
